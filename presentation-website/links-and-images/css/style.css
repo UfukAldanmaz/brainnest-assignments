@@ -1,0 +1,50 @@
+img {
+    border-radius: 12px;
+}
+
+h1 {
+    color: cadetblue;
+    background-color: rgb(218, 227, 39);
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+h2 {
+    color: rgb(108, 207, 210);
+    background-color: rgb(255, 234, 0);
+    border-radius: 10px;
+    border-style: ridge;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.lists {
+    border-bottom: 1px solid #555;
+    border-radius: 10px;
+    background-color: peachpuff;
+}
+
+.lists a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.lists a:hover:not(.active) {
+    background-color: #555;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
